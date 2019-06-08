@@ -1,0 +1,67 @@
+.cover-section {
+    width: 100vw;
+    height: 100vh;
+
+    .background-image {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 1;
+
+        background-size: cover;
+        background-image: url('../../../public/background-test-2.jpg');
+        width: 100vw;
+        height: 100vh;
+
+        filter: grayscale(100%);
+        filter: contrast(50%);
+    }
+
+    .content {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+
+        .main-text {
+            .first-name {
+                position: absolute;
+                left: 20vw;
+                top: 20vh;
+                margin: 0;
+                font-size: 12vw;
+                color: white;
+            }
+
+            .last-name {
+                position: absolute;
+                left: 32vw;
+                top: 42vh;
+                margin: 0;
+                font-size: 12vw;
+                text-align: center;
+                color: white;
+            }
+
+            .description {
+                position: absolute;
+                left: 15vw;
+                top: 65vh;
+                font-size: 2.5vw;
+                color: white;
+            }
+        }
+
+        .profile-pic {
+            .photo {
+                position: absolute;
+                left: 55vw;
+                top: 30vh;
+                width: 20vw;
+                height: 20vw;
+                border-radius: 50%;
+            }
+        }
+
+    }
+}
