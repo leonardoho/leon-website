@@ -49,28 +49,26 @@ class CareerSection extends Component {
     render() {
         return (
             <div className='career-section'>
-                <div className='background-image'></div>
-                <div className='content'>
-                    <h1 className='header'>Professional Experience</h1>
-                    <ul>
-                        <button onClick={this.onFinisarButton.bind(this)} className='finisar-btn'>Finisar</button>
-                        <button onClick={this.onNexleafButton.bind(this)} className='nexleaf-btn'>Nexleaf</button>
-                        <button onClick={this.onUCLAButton.bind(this)} className='ucla-btn'>UCLA Tech Camp</button> 
-                    </ul>
-                    <div className='career-description'>
-                        <div className='company-name'>
-                            {this.state.name}
-                        </div>
-                        <div className='description'>
-                            <ul>
-                                <li>{this.state.text1}</li>
-                                <li>{this.state.text2}</li>
-                                <li>{this.state.text3}</li>
-                                <li>{this.state.text4}</li>
-                            </ul>
-                        </div>
-                    </div>          
-                </div>
+                <h1 className='header'>Career</h1>
+                <ul className='buttons'>
+                    <button onClick={this.onFinisarButton.bind(this)} className='finisar-btn'>Finisar</button>
+                    <button onClick={this.onNexleafButton.bind(this)} className='nexleaf-btn'>Nexleaf</button>
+                    <button onClick={this.onUCLAButton.bind(this)} className='ucla-btn'>UCLA</button> 
+                </ul>
+                <div className='career-description'>
+                    <div className='company-name'>
+                        {this.state.name}
+                    </div>
+                    <div className='description'>
+                        <ul>
+                            <li>{this.state.text1}</li>
+                            <li>{this.state.text2}</li>
+                            <li>{this.state.text3}</li>
+                            <li>{this.state.text4}</li>
+                        </ul>
+                    </div>
+                </div> 
+                <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet"></link>         
             </div>
         )
     }

@@ -1,12 +1,77 @@
 .projects-section {
-    background-color: red;
     width: 100vw;
     height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 300vh;
+    z-index: 9999;
+    font-family: 'Archivo', sans-serif;
 
-    .name {
+    .header {
         margin: 0;
-        font-size: 5em;
+        position: absolute;
+        left: 6%;
+        top: 40%;
+        width: 30vw;
+        height: 20%;
         text-align: center;
+        font-size: 8vw;
         color: white;
+        font-weight: bold;
+    }
+
+    .projects-list {
+        position: absolute;
+        right: 6%;
+        top: 10%;
+        width: 50%;
+        height: 80%;
+        font-size: 3.5vh;
+        color: white;
+
+        button {
+            position: absolute;
+            width: 40%;
+            height: 40%;
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .mightymoon-btn {
+            top: 5%;
+            left: 5%;
+            background: url('../../../public/project-1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .yelpcamp-btn {
+            top: 5%;
+            left: 55%;
+            background: url('../../../public/project-2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .natcar-btn {
+            top: 55%;
+            left: 5%;
+            background: url('../../../public/project-3.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .princeton-btn {
+            top: 55%;
+            left: 55%;
+            background: url('../../../public/project-4.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
     }
 }

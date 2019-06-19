@@ -14,20 +14,24 @@ class HomePage extends Component {
 
             <ReactFullpage
             debug /* Debug logging */
+            navigation
             render={comp => (
                 <ReactFullpage.Wrapper>
-                    <div className="Home">
-                        <div className="section">
-                            <CoverSection/>
-                        </div>
-                        <div className="section">
-                            <AboutSection/>
-                        </div>
-                        <div className="section">
-                            <CareerSection/>
-                        </div>
-                        <div className="section">
-                            <ProjectsSection/>
+                    <div className="home">
+                        <div className='background-image'></div>
+                        <div className='content'>
+                            <div className="section">
+                                <CoverSection/>
+                            </div>
+                            <div className="section">
+                                <AboutSection/>
+                            </div>
+                            <div className="section">
+                                <CareerSection/>
+                            </div>
+                            <div className="section">
+                                <ProjectsSection/>
+                            </div>
                         </div>
                     </div>
                 </ReactFullpage.Wrapper>

@@ -1,67 +1,56 @@
 .cover-section {
     width: 100vw;
     height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    // outline: 1vh;
+    // outline-color: white;
+    // outline-style: dashed;
 
-    .background-image {
-        position: fixed;
-        left: 0;
-        right: 0;
-        z-index: 1;
 
-        background-size: cover;
-        background-image: url('../../../public/background-test-2.jpg');
-        width: 100vw;
-        height: 100vh;
+    .main-text {
 
-        filter: grayscale(100%);
-        filter: contrast(50%);
+        font-family: 'Archivo', sans-serif;
+
+        .first-name {
+            position: absolute;
+            left: 20%;
+            top: 20%;
+            margin: 0;
+            font-size: 12vw;
+            color: white;
+            font-weight: bold;
+        }
+
+        .last-name {
+            position: absolute;
+            left: 32%;
+            top: 42%;
+            margin: 0;
+            font-size: 12vw;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .description {
+            position: absolute;
+            left: 17%;
+            top: 70%;
+            font-size: 2.5vw;
+            color: white;
+        }
     }
 
-    .content {
-        position: absolute;
-        left: 0;
-        right: 0;
-        z-index: 9999;
-
-        .main-text {
-            .first-name {
-                position: absolute;
-                left: 20vw;
-                top: 20vh;
-                margin: 0;
-                font-size: 12vw;
-                color: white;
-            }
-
-            .last-name {
-                position: absolute;
-                left: 32vw;
-                top: 42vh;
-                margin: 0;
-                font-size: 12vw;
-                text-align: center;
-                color: white;
-            }
-
-            .description {
-                position: absolute;
-                left: 15vw;
-                top: 65vh;
-                font-size: 2.5vw;
-                color: white;
-            }
+    .profile-pic {
+        .photo {
+            position: absolute;
+            left: 60%;
+            top: 30vh;
+            width: 21vw;
+            height: 21vw;
+            border-radius: 50%;
         }
-
-        .profile-pic {
-            .photo {
-                position: absolute;
-                left: 55vw;
-                top: 30vh;
-                width: 20vw;
-                height: 20vw;
-                border-radius: 50%;
-            }
-        }
-
     }
 }
