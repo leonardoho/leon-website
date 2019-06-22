@@ -21,8 +21,7 @@ class AboutSection extends Component {
                     <img className='skills-4' src={require('../../../public/skills-4.png')}/>
                     <img className='skills-5' src={require('../../../public/skills-5.png')}/>
                     <img className='skills-6' src={require('../../../public/skills-6.png')}/>
-                </div>
-                <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet"></link>         
+                </div>     
             </div>
         )
     }

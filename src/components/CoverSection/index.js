@@ -14,7 +14,6 @@ class CoverSection extends Component {
                 <div className='profile-pic'>
                     <img className='photo' src={require('../../../public/profile_square.jpg')}/>
                 </div>
-                <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet"></link>
             </div>
         )
     }

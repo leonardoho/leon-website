@@ -12,8 +12,7 @@ class ProjectsSection extends Component {
                     <button className='yelpcamp-btn'></button>
                     <button className='natcar-btn'></button>
                     <button className='princeton-btn'></button>
-                </div>
-                <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet"></link>         
+                </div>      
             </div>
         )
     }
