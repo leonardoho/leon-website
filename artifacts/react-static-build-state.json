@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "C:\\Users\\Leon Ho\\Documents\\leon-website\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      {
+        "location": "C:\\Users\\Leon Ho\\Documents\\leon-website\\src\\pages"
+      }
+    ],
+    "C:\\Users\\Leon Ho\\Documents\\leon-website\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "C:\\Users\\Leon Ho\\Documents\\leon-website\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "C:\\Users\\Leon Ho\\Documents\\leon-website\\node_modules\\react-static-plugin-sass\\node.api.js",
+    "C:\\Users\\Leon Ho\\Documents\\leon-website"
+  ],
+  "paths": {
+    "ROOT": "C:\\Users\\Leon Ho\\Documents\\leon-website",
+    "SRC": "C:\\Users\\Leon Ho\\Documents\\leon-website\\src",
+    "DIST": "C:\\Users\\Leon Ho\\Documents\\leon-website\\dist",
+    "ASSETS": "C:\\Users\\Leon Ho\\Documents\\leon-website\\dist",
+    "PLUGINS": "C:\\Users\\Leon Ho\\Documents\\leon-website\\plugins",
+    "TEMP": "C:\\Users\\Leon Ho\\Documents\\leon-website\\tmp",
+    "ARTIFACTS": "C:\\Users\\Leon Ho\\Documents\\leon-website\\artifacts",
+    "PUBLIC": "C:\\Users\\Leon Ho\\Documents\\leon-website\\public",
+    "NODE_MODULES": "C:\\Users\\Leon Ho\\Documents\\leon-website\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Users\\Leon Ho\\Documents\\leon-website\\node_modules",
+    "PACKAGE": "C:\\Users\\Leon Ho\\Documents\\leon-website\\package.json",
+    "HTML_TEMPLATE": "C:\\Users\\Leon Ho\\Documents\\leon-website\\dist\\index.html",
+    "STATIC_DATA": "C:\\Users\\Leon Ho\\Documents\\leon-website\\dist\\staticData"
+  },
+  "siteRoot": "",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

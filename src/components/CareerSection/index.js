@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 
 import './style.scss'
 
+const highlightStyle = {
+    color: 'red'
+}
+
 class CareerSection extends Component {
 
     constructor() {
@@ -11,7 +15,10 @@ class CareerSection extends Component {
             text1: "• Co-designed the industry's first 50GBASE-SR SFP56 optical transceiver that can operate at three different data rates",
             text2: '• Developed a semi-automated platform to characterize and optimize module performance, such as bit error rate and eye quality, by establishing a tuning algorithm and integrating different test cases',
             text3: '• Built Python test scripts to evaluate individual modules inside a transceiver by adjusting the control registers',
-            text4: '• Cooperated with different teams to integrate all the module functions and to establish a roadmap for production level ramp of next generation PAM4 transceiver modules'
+            text4: '• Cooperated with different teams to integrate all the module functions and to establish a roadmap for production level ramp of next generation PAM4 transceiver modules',
+            button1: true,
+            button2: false,
+            button3: false
         }
     }
 
@@ -21,7 +28,10 @@ class CareerSection extends Component {
             text1: "• Co-designed the industry's first 50GBASE-SR SFP56 optical transceiver that can operate at three different data rates",
             text2: '• Developed a semi-automated platform to characterize and optimize module performance, such as bit error rate and eye quality, by establishing a tuning algorithm and integrating different test cases',
             text3: '• Built Python test scripts to evaluate individual modules inside a transceiver by adjusting the control registers',
-            text4: '• Cooperated with different teams to integrate all the module functions and to establish a roadmap for production level ramp of next generation PAM4 transceiver modules'
+            text4: '• Cooperated with different teams to integrate all the module functions and to establish a roadmap for production level ramp of next generation PAM4 transceiver modules',
+            button1: true,
+            button2: false,
+            button3: false
         });
     }
 
@@ -31,7 +41,10 @@ class CareerSection extends Component {
             text1: '• Implemented and executed exploratory tests in order to ensure the robustness of cloud-based temperature sensors, the accuracy of data analytics tools, and the quality of wireless data transmission in real time',
             text2: '• Debugged firmware and device features and managed the QA/QC process of software/hardware releases',
             text3: '• Coordinated with the CTO to monitor the development process and provide comprehensive analysis to developers',
-            text4: ''
+            text4: '',
+            button1: false,
+            button2: true,
+            button3: false
         });
     }
 
@@ -41,7 +54,10 @@ class CareerSection extends Component {
             text1: '• Created an audio amplifier project and authored curriculum modules for Dean’s Outreach Program',
             text2: '• Developed and delivered workshops in circuitry and programming for further advancement of research designs',
             text3: '• Managed lab space and mentored 16 students over 2 four-week sessions on electrical engineering concepts',
-            text4: ''
+            text4: '',
+            button1: false,
+            button2: false,
+            button3: true
         });
     }
 
@@ -50,9 +66,9 @@ class CareerSection extends Component {
             <div className='career-section'>
                 <h1 className='header'>Career</h1>
                 <ul className='buttons'>
-                    <button onClick={this.onFinisarButton.bind(this)} className='finisar-btn'>Finisar</button>
-                    <button onClick={this.onNexleafButton.bind(this)} className='nexleaf-btn'>Nexleaf</button>
-                    <button onClick={this.onUCLAButton.bind(this)} className='ucla-btn'>UCLA</button> 
+                    <button onClick={this.onFinisarButton.bind(this)} className='finisar-btn' style={this.state.button1 && highlightStyle || {}}>Finisar</button>
+                    <button onClick={this.onNexleafButton.bind(this)} className='nexleaf-btn' style={this.state.button2 && highlightStyle || {}}>Nexleaf</button>
+                    <button onClick={this.onUCLAButton.bind(this)} className='ucla-btn' style={this.state.button3 && highlightStyle || {}}>UCLA</button> 
                 </ul>
                 <div className='career-description'>
                     <div className='company-name'>

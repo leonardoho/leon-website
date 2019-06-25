@@ -33,7 +33,7 @@ class HomePage extends Component {
                                 <ProjectsSection/>
                             </div>
                         </div>
-                        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"></link>
+                        <link href="//fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"></link>
                     </div>
                 </ReactFullpage.Wrapper>
             )}
