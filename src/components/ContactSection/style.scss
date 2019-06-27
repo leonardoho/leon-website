@@ -1,0 +1,80 @@
+.contact-section {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 400vh;
+
+    .header {
+        margin: 0;
+        position: absolute;
+        left: 15%;
+        top: 30%;
+        width: 70%;
+        height: 20%;
+        text-align: center;
+        font-size: 8vw;
+        color: white;
+        font-weight: bold;
+    }
+
+    .icon {
+        position: absolute;
+        left: 30%;
+        top: 60%;
+        width: 10%;
+        height: 10%;
+
+
+        .email-btn {
+            position: absolute;
+            width: 8vh;
+            height: 8vh;
+            outline: none;
+            border: 0;
+            top: 90%;
+            left: 15%;
+        }
+
+        button {
+            position: absolute;
+            width: 8vh;
+            height: 8vh;
+            border-radius: 50%;
+            border: none;
+        }
+
+        .github-btn {
+            top: 180%;
+            left: 15%;
+            background: url('../../../public/social-3.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .linkedin-btn {
+            top: 0%;
+            left: 15%;
+            background: url('../../../public/social-1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    .contact-description {
+        position: absolute;
+        left: 38%;
+        top: 56.5%;
+        width: 30%;
+        height: 30%;
+        font-size: 3.25vh;
+        text-align: left;
+        color: white;
+
+        h2 {
+            margin: 6%;
+        }
+    }
+}

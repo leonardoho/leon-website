@@ -47,14 +47,32 @@
             top: 2vh;
         }
 
+        .finisar-btn-selected {
+            left: 3vw;
+            top: 2vh;
+            text-decoration: underline;
+        }
+
         .nexleaf-btn {
             left: 12vw;
             top: 2vh;
         }
     
+        .nexleaf-btn-selected {
+            left: 12vw;
+            top: 2vh;
+            text-decoration: underline;
+        }
+
         .ucla-btn {
             left: 21vw;
             top: 2vh;
+        }
+
+        .ucla-btn-selected {
+            left: 21vw;
+            top: 2vh;
+            text-decoration: underline;
         }
     }
     .career-description {

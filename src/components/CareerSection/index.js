@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 
 import './style.scss'
 
-const highlightStyle = {
-    color: 'red'
-}
-
 class CareerSection extends Component {
 
     constructor() {
@@ -66,9 +62,9 @@ class CareerSection extends Component {
             <div className='career-section'>
                 <h1 className='header'>Career</h1>
                 <ul className='buttons'>
-                    <button onClick={this.onFinisarButton.bind(this)} className='finisar-btn' style={this.state.button1 && highlightStyle || {}}>Finisar</button>
-                    <button onClick={this.onNexleafButton.bind(this)} className='nexleaf-btn' style={this.state.button2 && highlightStyle || {}}>Nexleaf</button>
-                    <button onClick={this.onUCLAButton.bind(this)} className='ucla-btn' style={this.state.button3 && highlightStyle || {}}>UCLA</button> 
+                    <button onClick={this.onFinisarButton.bind(this)} className={this.state.button1 && 'finisar-btn-selected' || 'finisar-btn'}>Finisar</button>
+                    <button onClick={this.onNexleafButton.bind(this)} className={this.state.button2 && 'nexleaf-btn-selected' || 'nexleaf-btn'}>Nexleaf</button>
+                    <button onClick={this.onUCLAButton.bind(this)} className={this.state.button3 && 'ucla-btn-selected' || 'ucla-btn'}>UCLA</button> 
                 </ul>
                 <div className='career-description'>
                     <div className='company-name'>

@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
 import { hot } from 'react-hot-loader'
-import { Root, Routes, Switch } from 'react-static'
-import { Router, Link } from '@reach/router'
-import { ParallaxProvider } from 'react-scroll-parallax';
-
-//
-import Dynamic from 'containers/Dynamic'
+import { Root, Routes } from 'react-static'
+import { Router } from '@reach/router'
 
 import './app.css'
 import HomePage from './components/HomePage'

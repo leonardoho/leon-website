@@ -5,6 +5,7 @@ import CoverSection from '../CoverSection'
 import ProjectsSection from '../ProjectsSection'
 import CareerSection from '../CareerSection';
 import AboutSection from '../AboutSection';
+import ContactSection from '../ContactSection';
 
 import './style.scss'
 
@@ -32,8 +33,13 @@ class HomePage extends Component {
                             <div className="section">
                                 <ProjectsSection/>
                             </div>
+                            <div className="section">
+                                <ContactSection/>
+                            </div>
                         </div>
-                        <link href="//fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"></link>
+                        <style>
+                            @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+                        </style>
                     </div>
                 </ReactFullpage.Wrapper>
             )}

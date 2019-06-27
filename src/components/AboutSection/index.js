@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Button } from 'reactstrap'
 
 import './style.scss'
 
@@ -10,10 +9,10 @@ class AboutSection extends Component {
                 <h1 className='header'>About</h1>
                 <div className='bio-description'>
                     Hi, I'm Leon! I am currently a development engineer at Finisar, where I design and test optical transceivers.
-                    While my background is in electrical engineering, I have been developing my software skills by taking online courses and working on personal projects.
+                    While my background is in electrical engineering, I have been developing my software skills by working on personal projects and taking classes on the side.
                     I am very interested in entering the software industry and bringing a different perspective to current problems.
                 </div>
-                <div className='contact'>
+                <div className='skills'>
                     <h1 className='skills-header'>Skills</h1>
                     <img className='skills-1' src={require('../../../public/skills-1.png')}/>
                     <img className='skills-2' src={require('../../../public/skills-2.png')}/>

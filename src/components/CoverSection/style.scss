@@ -4,10 +4,6 @@
     position: absolute;
     left: 0;
     top: 0;
-    // outline: 1vh;
-    // outline-color: white;
-    // outline-style: dashed;
-
 
     .main-text {
 
@@ -49,6 +45,7 @@
             width: 21vw;
             height: 21vw;
             border-radius: 50%;
+            border: 2px solid white;
         }
     }
 }

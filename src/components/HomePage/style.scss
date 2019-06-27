@@ -12,7 +12,7 @@ body {
 
 #fp-nav {
     position: absolute;
-    top: 50%;
+    top: 48%;
     width: 5%;
     height: 25%;
     left: 2%;
@@ -52,7 +52,7 @@ body {
 .fp-slidesNav ul li a.active span, 
 #fp-nav ul li:hover a.active span, 
 .fp-slidesNav ul li:hover a.active span {
-     width: 4vh;
+    width: 4vh;
     height: 4vh;
     margin: -5% 0 0 -5%;
     background: transparent;
@@ -62,4 +62,10 @@ body {
    &::after {
      height: 100%;
    }
+}
+
+#fp-nav ul li:hover a span {
+    width: 4vh;
+    height: 4vh;
+    margin: -5% 0 0 -5%;
 }
